@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/template/main.css">
+    <link rel="stylesheet" href="assets/css/template/site.css">
+    <link rel="stylesheet" href="assets/css/opgaver/domelements.css">
+    <script src="assets/js/opgaver/arrayFunctions.js" defer></script>
+</head>
+
+<body>
+    <header>
+
+        <section class="assignmentTopSection">
+            <h1>Array functions</h1>
+            <p>description</p>
+            <nav>
+                <a href="index.html">back</a>
+            </nav>
+
+        </section>
+        <h1>Opgaver</h1>
+    </header>
+
+
+    <section class="assignmentArea">
+        <header class="easy"></header>
+        <article>
+            <h2>Push Pop</h2>
+            <p>push og pop tilføjer og fjerner elementer fra enden af dit array.</p>
+            <h3>Opgave 1</h3>
+            <p>læs i filen arrayFunctions.js hvad du skal
+                gøre i opgave 1. </p>
+        </article>
+    </section>
+
+    <section class="assignmentArea">
+        <header class="easy"></header>
+        <article>
+            <h2>unshift shift</h2>
+            <p>unshift og shift tilføjer og fjerner elementer fra starten af dit array </p>
+            <h3>Opgave 2</h3>
+            <p>læs i filen arrayFunctions.js hvad
+                du skal
+                gøre i opgave 2.</p>
+        </article>
+
+    </section>
+
+    <section class="assignmentArea">
+        <header class="medium"></header>
+        <article>
+
+            <h2>splice</h2>
+            <p>splice() funktionen i JavaScript er en array funktion, der tillader dig at tilføje eller fjerne elementer
+                fra
+                et array på et bestemt index. Funktionen modificerer det oprindelige array, i modsætning til slice()
+                funktionen, der returnerer en ny array.
+                <br>
+                Syntaksen for splice() funktionen er som følger:
+            </p>
+
+            <pre><code>
+        array.splice(startIndex, deleteCount, item1, item2, ...)
+    
+    </code></pre>
+            <p>startIndex er det index, hvor du vil starte med at tilføje eller fjerne elementer.
+                deleteCount er antallet af elementer, du vil fjerne. Hvis du vil tilføje elementer, så sæt dette til 0.
+                item1, item2, ... er de elementer, du vil tilføje til arrayet.
+                <br>
+                For eksempel:
+            </p>
+            <pre><code>
+    let frugter = ["æble", "banan", "pære", "fersken"];
+    frugter.splice(2, 0, "appelsin", "kiwi");
+    console.log(frugter);
+    
+    </code></pre><br>
+            <h3>Opgave 3</h3>
+            <p>læs i filen arrayFunctions.js hvad du skal gøre i opgave 3. </p>
+        </article>
+    </section>
+
+    <section class="assignmentArea">
+        <header class="medium"></header>
+        <article>
+            <h2>slice</h2>
+            <p>slice() er en array funktion i JavaScript, der bruges til at udtrække en del af en array og returnere det
+                som
+                en ny array.
+                Eksempel:</p>
+            <pre><code>
+            let fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+            let citrus = fruits.slice(1, 3);
+            
+                
+                </code></pre>
+            <p>I dette eksempel ville citrus være en ny array med elementerne ["Orange", "Lemon"].</p>
+            <br>
+            <h3>Opgave 4</h3>
+            <p>læs i filen arrayFunctions.js hvad du skal gøre i opgave 4. </p>
+        </article>
+    </section>
+
+    <section class="assignmentArea">
+        <header class="medium"></header>
+        <article>
+            <h2>Concat</h2>
+            <p>concat() er en funktion i JavaScript, der bruges til at sammenføje to eller flere arrays til en enkelt ny
+                array.
+                <br>
+                Eksempel:
+            </p>
+            <pre><code>
+            let array1 = [1, 2, 3];
+            let array2 = [4, 5, 6];
+            let mergedArray = array1.concat(array2);
+            </code></pre>
+            <p>I dette eksempel ville mergedArray være en ny array med elementerne [1, 2, 3, 4, 5, 6].</p>
+            <br>
+            <h3>Opgave 5</h3>
+            <p>læs i filen arrayFunctions.js hvad du skal gøre i opgave 5. </p>
+        </article>
+    </section>
+
+    <section class="assignmentArea">
+        <header class="easy"></header>
+        <article>
+            <h2>Sort og reverse</h2>
+            <h3>sort()</h3>
+            <p>Er en funktion i JavaScript, der bruges til at sortere elementerne i en array i stigende rækkefølge.
+                Funktionen
+                ændrer den oprindelige array.
+                <br>
+                Eksempel:
+            </p>
+            <pre><code>
+                let numbers = [3, 1, 4, 2, 5];
+                numbers.sort();
+                </code></pre>
+            <p>I dette eksempel ville mergedArray være en ny array med elementerne [1, 2, 3, 4, 5, 6].</p><br>
+            <p>Vær opmærksom på t sort sorter som strings på første bogstav. så '25' vil være større end '100' fordi 2
+                er
+                større end 1</p>
+            <br>
+            <h3>reverse()</h3>
+            <p>Er en funktion i JavaScript, der bruges til at omstille rækkefølgen på elementerne i en array. Funktionen
+                ændrer den
+                oprindelige array.
+                <br>
+                Eksempel:
+            </p>
+            <pre><code>
+                    let numbers = [1, 2, 3, 4, 5];
+                    numbers.reverse();
+                        </code></pre>
+            <p>I dette eksempel ville numbers blive ændret til [5, 4, 3, 2, 1].</p><br>
+            <h3>Opgave 6</h3>
+            <p>læs i filen arrayFunctions.js hvad du skal gøre i opgave 6. </p>
+        </article>
+    </section>
+
+    <section class="assignmentArea">
+        <header class="hard"></header>
+        <article>
+            <h2>Map</h2>
+            <p>"map()" er en funktion i JavaScript, der bruges til at transformere hvert element i en array til en ny
+                værdi baseret på
+                et bestemt regelsæt. Funktionen returnerer en ny array med de transformede værdier og modificerer ikke
+                den oprindelige
+                array.
+                <br>
+                Eksempel:
+            </p>
+            <pre><code>
+                let numbers = [1, 2, 3, 4, 5];
+                let doubledNumbers = numbers.map((x) =>{
+                   return x * 2;
+                });
+
+                
+                    </code></pre>
+            <p>I dette eksempel bruges en arrow funktion i map, og doubledNumbers bliver en ny array med
+                elementerne [2, 4, 6, 8, 10].</p>
+            <br>
+            <h3>Opgave 7</h3>
+            <p>læs i filen arrayFunctions.js hvad du skal gøre i opgave 7. </p>
+        </article>
+    </section>
+
+    <section class="assignmentArea">
+        <header class="hard"></header>
+        <article>
+            <h2>Filter</h2>
+            <p>filter() er en funktion i JavaScript, der bruges til at filtrere elementerne i en array baseret på et
+                bestemt regelsæt.
+                Funktionen returnerer en ny array med de elementer, der opfylder reglerne, og modificerer ikke den
+                oprindelige array.
+                <br>
+                Eksempel:
+            </p>
+            <pre><code>
+                    const ages = [32, 33, 16, 40];
+                    const result = ages.filter(checkAdult);
+                    
+                    function checkAdult(age) {
+                        if(age >= 18){
+                        return age;
+                        }
+                    }
+
+                        </code></pre>
+            <p>I dette eksempel bruges en named funktion checkAdult() med filter(), og result bliver en ny array med
+                elementerne [32, 33, 40].</p>
+            <br>
+            <h3>Opgave 8</h3>
+            <p>læs i filen arrayFunctions.js hvad du skal gøre i opgave 8. </p>
+        </article>
+    </section>
+
+
+
+
+
+
+    <footer>
+        <nav>
+            <a href="index.html">back</a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

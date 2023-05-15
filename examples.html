@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Eksempler</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/template/main.css">
+    <link rel="stylesheet" href="assets/css/template/site.css">
+    <link rel="stylesheet" href="assets/css/opgaver/domelements.css">
+    <script src="assets/js/opgaver/examples.js" defer></script>
+</head>
+
+<body>
+    <header>
+
+        <section class="assignmentTopSection">
+            <h1>Eksempler på arrays</h1>
+            <p>Hvordan kan man bruge arrays sammen med andet javaScript?</p>
+            <nav>
+                <a href="index.html">back</a>
+            </nav>
+        </section>
+        <h1>Opgaver</h1>
+    </header>
+
+
+    <section class="assignmentArea">
+        <header class="hard"></header>
+        <article>
+            <h2>Extra udstyr</h2>
+            <p>Du kan her vælge ekstra udstyr til din puch maxi:</p>
+
+            <label for="udstyr">vælg:</label>
+            <select name="udstyr" id="extraUdstyr">
+                <option value="" disabled selected>vælg fra listen</option>
+                <option value="mælkekasse">mælkekasse</option>
+                <option value="antenne">antenne</option>
+                <option value="rævehale til antenne">rævehale til antenne</option>
+                <option value="blåt lys til kasse">blåt lys til kasse</option>
+                <option value="flammer på hjælm">flammer på hjælm</option>
+            </select>
+            <p id="extraList">Dit resultat kommer her</p>
+            <br><br>
+            <h3>Opgave 1</h3>
+            <p>skriv en funktion der hedder addExtra() der tager et parameter.
+                en tekststreng, med det brugeren har valgt fra input feltet. <br>
+                den skal opdatere den array der hedder myExtras med tekststrengen. <br>
+                og derefter kalde en funktion der hedder updateExtras. <br>
+                I updateExtras skal du bruge map til at generere en text til .innerHTML.
+                hvis du har kodet rigtigt, vises dine valg under input feltet. </p>
+        </article>
+    </section>
+
+    <section class="assignmentArea">
+        <header class="extreme"></header>
+        <article>
+            <h2>Opgave 2</h2>
+            <p>Byg videre på opgave 1. <br> Du skal lave en dropdown, der inderholder de valg brugeren har taget. hvis
+                man
+                vælger fra denne nye dropdown, fjerner man det valgte element. </p>
+        </article>
+
+    </section>
+
+
+
+
+
+
+    <footer>
+        <nav>
+            <a href="index.html">back</a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
