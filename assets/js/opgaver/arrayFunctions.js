@@ -9,14 +9,14 @@ let myPartArray = ['partElement1', 'partElement2', 'PartElement3'];
 // opgave 1 tilføj element4 til enden myArray
 
 // din kode her...
-// console.log(myArray);
-// myArray.push('element4');
+console.log(myArray);
+myArray.push('element4');
 
 // opgave 1 fjern element4 igen
 
 // din kode her...
-// console.log(myArray);
-// myArray.pop();
+console.log(myArray);
+myArray.pop();
 
 //.........................................................
 
